@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Valizadeh"
+  given-names: "Mojtaba"
+  orcid: "https://orcid.org/0000-0003-1582-3213"
+- family-names: "Berger"
+  given-names: "Martin"
+  orcid: "https://orcid.org/0000-0003-3239-5812"
+title: "Code and data for the PLDI 2023 paper: Search-Based Regular Expression Inference on a GPU"
+version: TBC
+doi: TBC
+date-released: TBC
+url: "https://github.com/MojtabaValizadeh/paresy"
+
