@@ -9,6 +9,8 @@ This repo contains the code and other artifacts for the  paper.
 by Mojtaba Valizadeh and Martin Berger. A draft of the paper is available at 
 - https://users.sussex.ac.uk/~mfb21/pldi23.pdf
 
+The original code, submitted to PLDI 2023, is available using the tag [`v0.1`](https://github.com/MojtabaValizadeh/paresy/releases/tag/v0.1), or using commit `6aa87ae`.
+
 ## Introduction
 
 In this work, the goal is to find a `precise` and `minimal` regular expression (RE) that accepts a given set of positive strings and rejects a given set of negative ones. To accomplish this, we developed an algorithm called `PaRESy`, Parallel Regular Expression Synthesiser, which is implemented in two codes: one for CPU using C++, and another for GPU using Cuda C++. By doing this, we could measure the speed-up for the most challenging examples.
