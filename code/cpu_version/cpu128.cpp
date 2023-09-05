@@ -56,14 +56,14 @@ std::string toString(int index, const std::set<char> &alphabet, const int *leftR
 
 // Shortlex ordering
 struct strComparison{
-    bool operator () (const std::string &str1, const std::string &str2){
+    bool operator () (const std::string &str1, const std::string &str2) const {
         if (str1.length() == str2.length()) return str1 < str2;
         return str1.length() < str2.length();
     }
 };
 
 // Generating the infix of a string
-std::set<std::string, strComparison> infixesOf (const std::string &word){
+std::set<std::string, strComparison> infixesOf (const std::string &word) {
     std::set<std::string, strComparison> ic;
     for (int len = 0; len <= word.length(); ++len) {
         for (int index = 0; index < word.length() - len + 1 ; ++index) {
