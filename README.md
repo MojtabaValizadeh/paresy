@@ -13,7 +13,8 @@ by Mojtaba Valizadeh and Martin Berger. The paper  is available at
 The original code, submitted to PLDI 2023, is available using the tag [`v0.1`](https://github.com/MojtabaValizadeh/paresy/releases/tag/v0.1), or using commit `6aa87ae`.
 See also 
 - https://github.com/MojtabaValizadeh/ltl-learning-on-gpus
-for follow-up work
+
+or follow-up work that trades off scalability against minimality.
 
 ## Introduction
 
