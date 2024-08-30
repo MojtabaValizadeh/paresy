@@ -14,7 +14,7 @@ The original code, submitted to PLDI 2023, is available using the tag [`v0.1`](h
 See also 
 - https://github.com/MojtabaValizadeh/ltl-learning-on-gpus
 
-or follow-up work that trades off scalability against minimality.
+for follow-up work that trades off scalability against minimality.
 
 ## Introduction
 
