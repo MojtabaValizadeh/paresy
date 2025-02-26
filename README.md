@@ -49,3 +49,35 @@ This work is presented on a Google Colab notebook platform, which automatically 
 To access the notebook, please use the link below and follow the instructions provided.
 
 - [https://colab.research.google.com/github/MojtabaValizadeh/paresy/blob/master/paresy.ipynb](https://colab.research.google.com/github/MojtabaValizadeh/paresy/blob/master/paresy.ipynb)
+
+## Citations
+
+```
+@article{ValizadehM:seabasreioag,
+	address = {New York, NY, USA},
+	articleno = {160},
+	author = {Valizadeh, Mojtaba and Berger, Martin},
+	doi = {10.1145/3591274},
+	issue_date = {June 2023},
+	journal = {Proc. ACM Program. Lang.},
+	keywords = {machine learning, program synthesis, GPU, Grammar inference, regular expression inference},
+	month = {jun},
+	note = {Draft available at \url{https://arxiv.org/abs/2305.18575}, implementation: \url{https://github.com/MojtabaValizadeh/paresy}},
+	number = {PLDI},
+	numpages = {23},
+	publisher = {Association for Computing Machinery},
+	title = {{Search-Based Regular Expression Inference on a GPU}},
+	url = {https://doi.org/10.1145/3591274},
+	volume = {7},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1145/3591274}}
+```
+
+```
+@misc{Valizadeh_Code_and_data,
+	author = {Valizadeh, Mojtaba and Berger, Martin},
+	title = {{Code and data for the PLDI 2023 paper: Search-Based Regular Expression Inference on a GPU}},
+	year = {2023},
+	howpublished = {https://github.com/MojtabaValizadeh/paresy},
+}
+```
